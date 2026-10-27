@@ -42,7 +42,7 @@ export default function Portfolio() {
         <Contact darkMode={darkMode} />
       </main>
       <Footer darkMode={darkMode} />
-      <SetupGuideModal darkMode={darkMode} />
+      {/* <SetupGuideModal darkMode={darkMode} /> */}
     </div>
   );
 }

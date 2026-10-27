@@ -34,7 +34,7 @@ export default function Projects({ darkMode = true }: ComponentProps) {
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
-              className={`px-4 py-2 rounded-xl text-sm font-medium transition ${
+              className={`px-4 py-2 cursor-pointer rounded-xl text-sm font-medium transition ${
                 selectedCategory === cat
                   ? "bg-blue-600 text-white shadow-lg shadow-blue-600/20"
                   : darkMode 

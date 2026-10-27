@@ -53,7 +53,7 @@ export default function Header({ darkMode, setDarkMode }: HeaderProps) {
           {/* Theme Toggle Button */}
           <button
             onClick={() => setDarkMode(!darkMode)}
-            className={`p-2.5 rounded-xl border transition-all duration-200 ${
+            className={`p-2.5 cursor-pointer rounded-xl border transition-all duration-200 ${
               darkMode 
                 ? "bg-slate-900 border-slate-800 text-amber-400 hover:bg-slate-800" 
                 : "bg-slate-100 border-slate-300 text-slate-700 hover:bg-slate-200"

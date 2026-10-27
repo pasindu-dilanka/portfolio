@@ -16,8 +16,7 @@ export default function Contact({ darkMode = true }: ContactProps) {
   const [errorMessage, setErrorMessage] = useState("");
   const [emailCopied, setEmailCopied] = useState(false);
 
-  // Replace with your free Web3Forms Access Key from https://web3forms.com
-  const WEB3FORMS_ACCESS_KEY = "YOUR_WEB3FORMS_ACCESS_KEY";
+  const WEB3FORMS_ACCESS_KEY = "2f94a54d-39d9-40ae-b528-283ad72d26a7";
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(personalData.email);
@@ -98,13 +97,13 @@ export default function Contact({ darkMode = true }: ContactProps) {
                 <button
                   type="button"
                   onClick={handleCopyEmail}
-                  className={`p-2 rounded-lg border transition shrink-0 ${
+                  className={`p-2 cursor-pointer rounded-lg border transition shrink-0 ${
                     darkMode ? "bg-slate-800 border-slate-700 text-slate-300 hover:text-white" : "bg-white border-slate-300 text-slate-600 hover:text-slate-900"
                   }`}
                   title="Copy email address"
                   aria-label="Copy email address"
                 >
-                  {emailCopied ? <Check className="w-4 h-4 text-emerald-500" /> : <Copy className="w-4 h-4" />}
+                  {emailCopied ? <Check className="w-4 h-4 text-emerald-500" /> : <Copy className="w-4 h-4 " />}
                 </button>
               </div>
 
@@ -220,7 +219,7 @@ export default function Contact({ darkMode = true }: ContactProps) {
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 disabled:bg-blue-600/50 text-white font-medium transition shadow-lg shadow-blue-600/20 flex items-center justify-center gap-2"
+                    className="w-full cursor-pointer py-3.5 rounded-xl bg-blue-600 hover:bg-blue-500 disabled:bg-blue-600/50 text-white font-medium transition shadow-lg shadow-blue-600/20 flex items-center justify-center gap-2"
                   >
                     {isSubmitting ? (
                       "Sending..."

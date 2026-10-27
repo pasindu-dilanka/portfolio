@@ -12,10 +12,10 @@ export interface ExperienceItem {
 export const experiences: ExperienceItem[] = [
   {
     id: "1",
-    role: "Full-Stack Developer",
+    role: "Software Engineer",
     company: "Mediio",
     type: "Full-time",
-    location: "Work from Home",
+    location: "Remote",
     period: "2025 Mar - 2025 June",
     description: [
       "Architected and delivered high-performance SaaS web applications using Next.js and TypeScript.",
@@ -26,11 +26,37 @@ export const experiences: ExperienceItem[] = [
   },
   {
     id: "2",
-    role: "Frontend Engineer",
+    role: "Associate Software Engineer",
     company: "Hasthiya IT",
     type: "Full-time",
-    location: "Work from Home",
-    period: "2023 Oct - 2025 Feb",
+    location: "Remote",
+    period: "2024 Apr - 2025 Jan",
+    description: [
+      "Developed responsive, accessible component design systems used across multiple products.",
+      "Collaborated closely with UX designers to translate complex wireframes into smooth interfaces."
+    ],
+    technologies: ["React", "JavaScript", "CSS Modules", "Redux", "Jest"]
+  },
+  {
+    id: "3",
+    role: "Software Engineer",
+    company: "Unicent Apex",
+    type: "Freelance",
+    location: "Remote",
+    period: "2024 Jan - 2025 Jun",
+    description: [
+      "Developed responsive, accessible component design systems used across multiple products.",
+      "Collaborated closely with UX designers to translate complex wireframes into smooth interfaces."
+    ],
+    technologies: ["Next", "TypeScript", "Tailwind CSS", "MongoDb", "Docker"]
+  },
+  {
+    id: "4",
+    role: "Trainee Software Engineer",
+    company: "Hasthiya IT",
+    type: "Full-time",
+    location: "Remote",
+    period: "2023 Oct - 2024 Apr",
     description: [
       "Developed responsive, accessible component design systems used across multiple products.",
       "Collaborated closely with UX designers to translate complex wireframes into smooth interfaces."

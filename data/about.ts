@@ -17,5 +17,5 @@ export const aboutData: AboutData = {
   ],
   strengths: ["Clean Code Advocate", "Detail-Oriented Problem Solver", "Cross-Functional Communicator"],
   approach: "I believe in iterative development, robust testing, user-first design principles, and keeping code maintainable and clean.",
-  hobbies: ["Open-Source Contributions", "Technical Writing", "Photography", "Hiking"]
+  hobbies: ["Open-Source Contributions", "Traveling", "Volunteering", "Hiking"]
 };
